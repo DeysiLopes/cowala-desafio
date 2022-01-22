@@ -1,0 +1,166 @@
+.top {
+  position: absolute;
+  width: 1440px;
+  height: 121px;
+  left: 0px;
+  top: 0px;
+  background: #0a1633;
+}
+.cowalaLogo{
+  position: absolute;
+  width: 363px;
+  height: 96px;
+  left: 28px;
+  top: 12px;
+}
+.infos {
+  position: absolute;
+  width: 1103px;
+  height: 459px;
+  left: 123px;
+  top: 190px;
+  background: #ededed;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#labelNome {
+  position: absolute;
+  width: 49px;
+  height: 21px;
+  left: 327px;
+  top: 44px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #000000;
+}
+#campoNome {
+  position: absolute;
+  width: 541px;
+  height: 44px;
+  left: 327px;
+  top: 70px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+#labelProfissao {
+  /* Profissão */
+  position: absolute;
+  width: 77px;
+  height: 21px;
+  left: 327px;
+  top: 134px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+#campoProfissao {
+  position: absolute;
+  width: 254px;
+  height: 44px;
+  left: 327px;
+  top: 160px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+#labelTelefone {
+  position: absolute;
+  width: 57px;
+  height: 21px;
+  left: 614px;
+  top: 134px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+#campoTelefone {
+  position: absolute;
+  width: 254px;
+  height: 44px;
+  left: 614px;
+  top: 160px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+#myIP {
+  position: absolute;
+  width: 57px;
+  height: 21px;
+  left: 327px;
+  top: 224px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+#ip_address {
+  position: absolute;
+  width: 325px;
+  height: 44px;
+  left: 327px;
+  top: 250px;
+  background: #ffffff;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+#encontrarIP {
+  position: absolute;
+  width: 183px;
+  height: 44px;
+  left: 670px;
+  top: 250px;
+  background: #00d9d0;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+#salvar {
+  position: absolute;
+  width: 139px;
+  height: 44px;
+  left: 442px;
+  top: 356px;
+  background: #0a1633;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+#limpar {
+  position: absolute;
+  width: 139px;
+  height: 44px;
+  left: 614px;
+  top: 356px;
+  background: #0a1633;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
