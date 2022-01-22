@@ -44,7 +44,16 @@ ReactDOM.render(
 
 // }
 // ReactDOM.render(<GuardarInfos />, document.getElementById('root'));
- 
+const url = 'https://ip-fast.com/api/ip/'
+
+function getIp(){
+  axios.get(url).then( res => {
+    const data = res.data
+    document.getElementById('ip_address').value = data;
+    console.log(data)
+  }).catch(error => console.error(error))
+}
+getIp();
 
 function guardarInfos() {
   let nome = document.getElementById('campoNome').value;
@@ -61,16 +70,7 @@ console.log(recuperaInfos);
 }
 guardarInfos();
 
-const url = 'https://ip-fast.com/api/ip/'
 
-function getIp(){
-  axios.get(url).then( res => {
-    const data = res.data
-    document.getElementById('ip_address').value = data;
-    console.log(data)
-  }).catch(error => console.error(error))
-}
-getIp();
 
 
 
