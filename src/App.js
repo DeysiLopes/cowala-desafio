@@ -2,23 +2,21 @@ import './App.css';
 import cowalaLogo from './images/logoCowala.svg';
 import './index.js';
 import { TelefoneMask } from 'telefone-mask-ng2';
+import FormDataComponent from './index';
 
 
 function App() {
 
   
-
+  
     return (
     <div className="App">
       <header className="App-header">
         <div className="top">
               <img src={cowalaLogo} alt="cowalaLogo" />
         </div>
-
-       
-
         <div className="infos"> 
-          <form href="App.js" >
+        <form href="App.js" >
                     <div>
                         <label id="labelNome"> Nome </label>
                         <input type="text" id="campoNome"  />
@@ -44,7 +42,7 @@ function App() {
                     </div>
                        
                     <div className="salvar" > 
-                        <button type="submit" id="salvar">Salvar</button>
+                        <button type="submit" id="salvar" >Salvar</button>
                     </div>
                     <div className="limpar">
                         <button type="reset" id="limpar">Limpar</button>

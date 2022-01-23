@@ -1,12 +1,12 @@
-import React from 'react';
+import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { useState } from "react";
 import './App.css'
 import axios from 'axios'
 import InputMask from 'react-input-mask';
+
 
 //export default guardarInfos();
 
@@ -43,7 +43,6 @@ getIp();
 console.log(recuperaInfos);
 }
 guardarInfos();
-
 
 
 
