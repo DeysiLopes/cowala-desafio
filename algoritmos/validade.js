@@ -1,0 +1,1 @@
+// Crie uma função que recebe uma data e uma string. Essa string é a validade. Você deve retornar indicando se está expirado ou não.

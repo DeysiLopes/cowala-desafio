@@ -1,0 +1,1 @@
+// Crie uma função que sempre recebe um objeto como argumento e retorna-o excluindo as propriedades sem valor.

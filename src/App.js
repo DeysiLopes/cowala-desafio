@@ -3,7 +3,10 @@ import cowalaLogo from './images/logoCowala.svg';
 import './index.js';
 import { TelefoneMask } from 'telefone-mask-ng2';
 
+
 function App() {
+
+  
 
     return (
     <div className="App">
@@ -18,7 +21,7 @@ function App() {
           <form href="App.js" >
                     <div>
                         <label id="labelNome"> Nome </label>
-                        <input type="text" id="campoNome" />
+                        <input type="text" id="campoNome"  />
                     </div>
                 
                     <div>
@@ -41,7 +44,7 @@ function App() {
                     </div>
                        
                     <div className="salvar" > 
-                        <button type="submit" id="salvar" >Salvar</button>
+                        <button type="submit" id="salvar">Salvar</button>
                     </div>
                     <div className="limpar">
                         <button type="reset" id="limpar">Limpar</button>

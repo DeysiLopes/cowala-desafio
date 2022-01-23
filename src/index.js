@@ -8,6 +8,8 @@ import './App.css'
 import axios from 'axios'
 import InputMask from 'react-input-mask';
 
+//export default guardarInfos();
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
@@ -16,34 +18,6 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// function GuardarInfos(){
-//   const [nome, setNome] = useState("");
-//   const [profissao, setProfissao] = useState("");
-//   const [telefone, setTelefone] = useState("");
-//   const [ip, setIp] = useState("");
-
-//   const handleSubmit = (event) => {
-//     event.preventDefault();
-//     let infosObj = { 'nome': nome, 'profissao': profissao, 'telefone': telefone, 'IP': ip }
-
-//     localStorage.setItem('infosUser', JSON.stringify(infosObj));
-
-//     let recuperaInfos = localStorage.getItem('infosUser');
-//     console.log(recuperaInfos);
-//   }
-//   return (
-//     <form onSubmit={handleSubmit}>
-//       <label htmlFor="" id='labelNome'>Nome
-//           <input type="text" value={nome} onChange={(e) => setNome(e.target.value)} />
-//       </label>
-//       <label htmlFor="" id='labelProfissao'>Profissão
-//           <input type="text" value={profissao} onChange={(e) => setProfissao(e.target.value)} />
-//       </label>
-//     </form>
-//   )
-
-// }
-// ReactDOM.render(<GuardarInfos />, document.getElementById('root'));
 const url = 'https://ip-fast.com/api/ip/'
 
 function getIp(){
@@ -55,7 +29,7 @@ function getIp(){
 }
 getIp();
 
-function guardarInfos() {
+ function guardarInfos() {
   let nome = document.getElementById('campoNome').value;
   let profissao = document.getElementById('campoProfissao').value;
   let telefone = document.getElementById('campoTelefone').value;
